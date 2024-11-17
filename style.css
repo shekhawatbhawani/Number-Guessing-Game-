@@ -1,0 +1,73 @@
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+body {
+  background-image: url(https://imgs.search.brave.com/GQ4v3UaKZN0YaNb9w-3aLc-z5UewEClKdWNda0Y8ldY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/cHJvZC53ZWJzaXRl/LWZpbGVzLmNvbS82/MDViYWJhMzJkOTQ0/MzUzNzY2MjVkMzMv/NjZlMGE4ZTNiMzkx/OTc0N2YxOTRkMzFm/X21pY3Jvc29mdC10/ZWFtcy1nYW1lcy5q/cGc);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: rgb(4, 4, 4);
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 2px rgb(99, 97, 97);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  line-height: 10px;
+}
+h1 {
+  font-size: x-large;
+  font-family: cursive;
+  font-weight: inherit;
+ 
+  /* font-style: unset; */
+}
+.same {
+
+  line-height: 10px;
+  text-align: center;
+}
+#container {
+
+  margin-top: 20px;
+  /* line-height: 15px; */
+}
+input {
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  line-height: 10px;
+  outline: none;
+}
+#Submit {
+  background-color: lime;
+  margin-top: 15px;
+}
+  #Submit:hover {
+  line-height: 10px;
+  background-color: limegreen;
+}
+#Reset {
+line-height: 10px;
+background-color: red;
+}
+#Reset:hover {
+  line-height: 10px;
+  background-color: rgb(213, 23, 61);
+}
+button {
+  line-height: 10px;
+  margin: 10px 0px;
+  margin-top: 5px;
+  padding: 10px;
+  width: 179px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+}
+  
